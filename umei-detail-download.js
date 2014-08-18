@@ -8,7 +8,7 @@ var url = '';
 var options = {
     url: 'http://ix.umei.cc//img2012/XR_VIP04/XR20140809N00201/0059.jpg',
     headers: {
-       'Referer':'http://www.umei.cc/'
+       'Referer':'http://www.umei.cc/'  // 必须添加Referer，否则会被拒绝下载
     }
 };
-request(options).pipe((fs.createWriteStream('customer2.jpg')));
+request(options).pipe((fs.createWriteStream('demo.jpg')));
