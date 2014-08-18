@@ -202,8 +202,9 @@
                             href: 'http://www.22mm.cc/mm/suren/PiamdbJmiPmaiPJdd.html',
                             text: '竹边' } ]
     |-- 集成在服务端中
-        |-- 使用你自己喜欢的服务端框架将功能集成到api中，在这里我使用的sails框架，所以最后api集成的结果
-            就是:https://github.com/tsq/girl-gallery/blob/master/api/controllers/PicController.js
+        |-- 使用你自己喜欢的服务端框架将功能集成到api中，在这里我使用的sails框架，所以最后
+            api集成的结果就是:
+            https://github.com/tsq/girl-gallery/blob/master/api/controllers/PicController.js
     |-- 本项目其他js的说明:
         |-- suren-detail.js
             |-- 获取http://www.22mm.cc/网站美女大图的src
@@ -219,11 +220,12 @@
             一张高清美女图。
     |-- 其它感悟
         |-- 编码的处理：
-            |-- 有很多网站并非采用utf-8编码，所以爬来的数据可能是乱码，需要进行一些处理。'361搜索'工程
-                中就有很多类似的处理。
+            |-- 有很多网站并非采用utf-8编码，所以爬来的数据可能是乱码，需要进行一些处理。
+                '361搜索'工程中就有很多类似的处理。
         |-- 字符串的处理
-            |-- 爬虫过程中经常需要进行对字符串进行处理，需要掌握好js中对字符串的处理，例如‘美女图库’项目中
-                大图的获取，获取的图片src中，该网站故意将'pic'换成了'big'，因此需要自己处理一下。		
+            |-- 爬虫过程中经常需要进行对字符串进行处理，需要掌握好js中对字符串的处理，
+                例如‘美女图库’项目中大图的获取，获取的图片src中，该网站故意将'pic'换成了'big'，
+                因此需要自己处理一下。		
 ```
         
                     
