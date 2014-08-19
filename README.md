@@ -204,7 +204,7 @@
     |-- 集成在服务端中
         |-- 使用你自己喜欢的服务端框架将功能集成到api中，在这里我使用的sails框架，所以最后
             api集成的结果就是:
-            https://github.com/tsq/girl-gallery/blob/master/api/controllers/PicController.js
+         https://github.com/tsq/girl-gallery/blob/master/api/controllers/PicController.js
     |-- 本项目其他js的说明:
         |-- suren-detail.js
             |-- 获取http://www.22mm.cc/网站美女大图的src
