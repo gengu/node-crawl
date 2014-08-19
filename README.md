@@ -31,7 +31,9 @@
             |-- git库地址: http://matthewmueller.github.io/cheerio/
         |-- request模块
             |-- 理由: request模块对http的各种请求都做了很好的封装，在做http请求时，可以很容易
-                     的获取请求数据，甚至支持cookie的传输。
+                     的获取请求数据，甚至支持cookie的传输。自己之前利用request做过一个restful
+                     请求发送的网站: https://github.com/tsq/restful ,可以发现request的功能是
+                     多么的强大。
             |-- git库地址: https://github.com/mikeal/request
         |-- 字符串的处理
             |-- 爬来的数据，大多情况下是一大堆字符串，因此如何获得自己想要的那部分字符串就需要熟悉
@@ -49,11 +51,11 @@
         |-- 第一步: 引入request、cheerio、qs模块
         |-- 第二步: var url = 'http://www.22mm.cc/mm/suren/';
                    request(url).pipe((fs.createWriteStream('suren.html')));
-                   通过request将这个页面先下载到本地，进行dom分析，分析前，最好用编辑器将这个html代码
-                   格式化一下。这样比较方便分析dom结构。
+                   通过request将这个页面先下载到本地，进行dom分析，分析前，最好用编辑器将这个html
+                   代码格式化一下。这样比较方便分析dom结构。
         |-- 第三步: 数据分析
-                   |-- 我们想要的src、href、title等数据都是存放在li标签中，li中a便签包含了href和title。
-                       li中img标签包含了图片的src。
+                   |-- 我们想要的src、href、title等数据都是存放在li标签中，li中a便签包含了href和
+                       title。li中img标签包含了图片的src。
         |-- 第四步: 数据获取
                    |-- 获取整个html文档,这个html页面都被包装在$对象中了
                                        request(url, function (error, res, body) {
