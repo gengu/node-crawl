@@ -4,7 +4,7 @@
 var request = require('request');
 var cheerio = require('cheerio');
 var fs = require('fs');
-var url = 'http://www.22mm.cc/mm/suren/index_15.html';
+var url = 'http://www.22mm.cc/mm/suren/index_20.html?jdfwkey=qybfa';
 if (0) {
     request(url).pipe((fs.createWriteStream('suren-fix.html')));
 }
